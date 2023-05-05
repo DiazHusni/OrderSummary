@@ -1,0 +1,71 @@
+body {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-main {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: white;
+    border-radius: 5px;
+    width: 300px;
+    height: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.card-main img {
+    width: 300px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card-second {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    width: 260px;
+    height: fit-content;
+    margin: auto;
+    display: flex;
+}
+
+.card-second img {
+    margin-left: 5px;
+    width: 50px;
+    height: 50px;
+    align-self: center;
+}
+
+.price {
+    color: gray;
+}
+
+.change {
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.button {
+    background-color: blueviolet;
+    border-radius: 5px;
+    width: 260px;
+    height: fit-content;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.proceed {
+    color: white;
+    text-decoration: none;
+}
+
+.cancel {
+    color: gray;
+    text-decoration: none;
+}
